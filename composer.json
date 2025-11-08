@@ -13,11 +13,5 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "repositories": [
-    {
-        "type": "path",
-        "url": "../kunal-laravel-core"
-    }
-]
+    "require": {}
 }
