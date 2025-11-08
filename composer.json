@@ -1,0 +1,19 @@
+{
+    "name": "kunal-laravel/core",
+    "description": "Modular MVC System for Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "KunalLaravel\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KunalLaravel\\Core\\CoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
