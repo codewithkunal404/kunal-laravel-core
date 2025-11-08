@@ -1,19 +1,23 @@
 {
     "name": "kunal-laravel/core",
-    "description": "Modular MVC System for Laravel",
-    "type": "library",
+    "description": "module management system",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "KunalLaravel\\Core\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "KunalLaravel\\Core\\CoreServiceProvider"
-            ]
+    "authors": [
+        {
+            "name": "codewithkunal404"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "repositories": [
+    {
+        "type": "path",
+        "url": "../kunal-laravel-core"
+    }
+]
 }
